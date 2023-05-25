@@ -1,0 +1,129 @@
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+  --ff-karla: "Karla", sans-serif;
+}
+
+body {
+  font-family: var(--ff-karla);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: var(--light-gray);
+}
+.wrapper {
+  width: 575px;
+  max-width: 100%;
+  font-family: var(--ff-karla);
+}
+.container {
+  padding: 1.5rem;
+}
+.card-content {
+  margin: 3rem 2rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* community */
+.community {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.community-title {
+  font-size: 1.375em;
+  font-weight: 700;
+  color: var(--cyan);
+  margin: 0;
+}
+.gurantee {
+  color: var(--bright-yellow);
+  font-size: 0.9375em;
+}
+.commnity-text {
+  font-size: 0.85em;
+  line-height: 1.7;
+  margin: 0;
+  color: var(--grayish-blue);
+}
+/* subscription and reason  */
+.subcription-and-reason {
+  display: flex;
+  flex-direction: column;
+}
+/* subscription content */
+.subscription-content {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cyan);
+  color: var(--light-gray);
+}
+.monthly-subs {
+  font-size: 1.17em;
+  margin-bottom: 1.5rem;
+}
+.monthly-price {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--light-gray);
+  margin-bottom: 0.875rem;
+}
+.amount {
+  font-size: 1.875em;
+  font-weight: 700;
+  opacity: 1;
+}
+.amount-text {
+  opacity: 0.7;
+  font-size: 1em;
+}
+.daily-price {
+  font-size: 1em;
+  margin-bottom: 2rem;
+}
+.signup-btn {
+  background-color: var(--bright-yellow);
+  padding: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: var(--light-gray);
+  font-weight: 700;
+  border-radius: 0.375rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.signup-btn:hover {
+  color: white;
+}
+/* reason content  */
+.reason-content {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(179, 75%, 43%);
+  color: var(--light-gray);
+  flex-basis: 50%;
+}
+.reason-headline {
+  font-size: 1em;
+  margin-bottom: 1.5rem;
+}
+.reason {
+  margin-bottom: 0.07rem;
+  font-size: 0.875em;
+  opacity: 0.75;
+}

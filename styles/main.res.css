@@ -1,0 +1,27 @@
+@media (min-width: 576px) {
+  .wrapper {
+    width: 635px;
+  }
+  .container {
+    padding: 1.875rem;
+  }
+  .card-content {
+    margin: 0;
+  }
+  /* community  */
+  .community-title {
+    font-size: 1.5em;
+  }
+  /* subscription and reason  */
+  .subcription-and-reason {
+    flex-direction: row;
+  }
+  /* subscription content */
+  .subscription-content {
+    flex-basis: 50%;
+  }
+  /* reason content  */
+  .reason-content {
+    flex-basis: 50%;
+  }
+}
